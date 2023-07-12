@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <div className="">
           <HeroSection />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         <Footer />
       </div>
