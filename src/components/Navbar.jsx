@@ -12,7 +12,7 @@ const Navbar = () => {
     if (e.target.checked) {
       setTheme("light");
     } else {
-      setTheme("dracula");
+      setTheme("dark");
     }
   };
   useEffect(() => {
@@ -22,7 +22,7 @@ const Navbar = () => {
   });
 
   return (
-    <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+    <div className="navbar shadow-lg bg-neutral text-neutral-content">
       <div className="px-2 mx-2 navbar-start">
         <img src={Logo} className="h-10 w-10" />
       </div>
@@ -38,7 +38,7 @@ const Navbar = () => {
         <label className="swap swap-rotate ">
           <input
             type="checkbox"
-            checked={theme === "dracula" ? false : true}
+            checked={theme === "dark" ? false : true}
             onClick={handleToggle}
           />
 
