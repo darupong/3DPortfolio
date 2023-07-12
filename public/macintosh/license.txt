@@ -1,0 +1,11 @@
+Model Information:
+* title:	Macintosh 128K
+* source:	https://sketchfab.com/3d-models/macintosh-128k-896ea439b67b4606a23fb8b93be6af6d
+* author:	kreems (https://sketchfab.com/kreems)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Macintosh 128K" (https://sketchfab.com/3d-models/macintosh-128k-896ea439b67b4606a23fb8b93be6af6d) by kreems (https://sketchfab.com/kreems) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
