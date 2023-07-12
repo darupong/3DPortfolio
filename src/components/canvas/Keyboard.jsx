@@ -18,7 +18,7 @@ const Keyboard = ({ isMobile }) => {
         penumbra={12}
         intensity={1}
         castShadow
-        shadow-mapSize={1024}
+        shadow-mapSize={10}
       />
       <pointLight intensity={1} />
       <primitive
