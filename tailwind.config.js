@@ -4,10 +4,14 @@ export default {
   mode: "jit",
   purge: ["./public/**/*.html", "./src/**/*.{js,jsx,ts,tsx,vue}"],
   theme: {
-    extend: {},
+    extend: {
+      heroColor: "#272935",
+      navbarColor: "#A6ADBA",
+    },
   },
   plugins: [require("daisyui")],
   daisyui: {
     themes: ["light", "dark"],
   },
+  darkMode: ["class", '[data-theme="dark"]'],
 };
