@@ -1,5 +1,5 @@
 import Loader from "./Loader";
 import HeroSection from "./HeroSection";
-import { StarsCanvas } from "./canvas";
+import Overview from "./Overview";
 
-export { Loader, HeroSection, StarsCanvas };
+export { Loader, HeroSection, Overview };

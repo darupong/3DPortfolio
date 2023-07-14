@@ -12,6 +12,9 @@ const Loader = () => {
             color: "#f1f1f1",
             fontWeight: 800,
             marginTop: 40,
+            alignItems: "center",
+            flexDirection: "row",
+            justifyContent: "center",
           }}
         >
           {progress.toFixed(2)}

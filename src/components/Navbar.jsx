@@ -12,7 +12,7 @@ const Navbar = () => {
     if (e.target.checked) {
       setTheme("light");
     } else {
-      setTheme("dracula");
+      setTheme("dark");
     }
   };
   useEffect(() => {
@@ -22,29 +22,40 @@ const Navbar = () => {
   });
 
   return (
-    <div className="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+    <div className="navbar shadow-lg text-neutral-content dark:bg-gray-800 bg-white sticky w-full top-0 left-0 z-50">
       <div className="px-2 mx-2 navbar-start">
         <img src={Logo} className="h-10 w-10" />
       </div>
       <div className="hidden px-2 mx-2 navbar-center lg:flex">
         <div className="flex items-stretch">
-          <a className="btn btn-ghost btn-sm rounded-btn">Home</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Portfolio</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">About</a>
-          <a className="btn btn-ghost btn-sm rounded-btn">Contact</a>
+          <a className="btn btn-ghost btn-sm ">
+            <span className="text-gray-600 dark:text-white">Home</span>
+          </a>
+          <a className="btn btn-ghost btn-sm ">
+            <span className="text-gray-600 dark:text-white">Overview</span>
+          </a>
+          <a className="btn btn-ghost btn-sm ">
+            <span className="text-gray-600 dark:text-white">Timeline</span>
+          </a>
+          <a className="btn btn-ghost btn-sm ">
+            <span className="text-gray-600 dark:text-white">Experience</span>
+          </a>
+          <a className="btn btn-ghost btn-sm ">
+            <span className="text-gray-600 dark:text-white">Contact</span>
+          </a>
         </div>
       </div>
       <div className="navbar-end pr-4">
         <label className="swap swap-rotate ">
           <input
             type="checkbox"
-            checked={theme === "dracula" ? false : true}
+            checked={theme === "dark" ? false : true}
             onClick={handleToggle}
           />
 
           {/* sun icon */}
           <svg
-            className="swap-on fill-current w-8 h-8"
+            className="swap-on fill-current text-gray-600 w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
@@ -53,7 +64,7 @@ const Navbar = () => {
 
           {/* moon icon */}
           <svg
-            className="swap-off fill-current w-8 h-8"
+            className="swap-off fill-current text-white w-8 h-8"
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 24 24"
           >
